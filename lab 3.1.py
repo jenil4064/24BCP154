@@ -1,8 +1,5 @@
-l = [ 10 , 100 , 1000 ]
-key = int(input("enter key that you want to search in list"))
-for ele in l:
-   if(key == ele):
-      print(key,"is present in list")
-      break
-else:
-    print(key,"is not present")
+for i in range(65,91):
+    print(chr(i))
+    
+for i in range(97,123):
+    print(chr(i))
