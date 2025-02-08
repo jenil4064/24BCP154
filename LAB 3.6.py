@@ -1,10 +1,9 @@
-for hour in range(24):
-    if hour == 0:
-            print("12 Midnight")
-    elif hour == 12:
-            print("12 Noon")
-    elif hour < 12:
-            print(f"{hour} AM")
+for i in range(24):
+    if i==0:
+        print(f"12:00 midnight")
+    elif i==12:
+        print(f"12:00 noon")
+    elif i<12:
+        print(i,":AM")
     else:
-            print(f"{hour - 12} PM")
-
+        print(i-12,":PM")
